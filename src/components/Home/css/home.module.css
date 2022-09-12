@@ -1,0 +1,53 @@
+.wrapper{
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    margin: 20px auto;
+    left: 10%;
+    border-radius: 20px;
+    background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#15ffa5, #00ced1);
+    background-color: mediumspringgreen;
+    background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+    background-repeat: repeat;
+    border: 3px solid aliceblue;
+    text-align: center;
+}
+
+.avatar-holder{
+    width: 25%;
+    height: 60%;
+    margin: 20px auto;
+    border-radius: 50%;
+    background-image: url("../../../../public/images/profile-pic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info-paragraph{
+    font-size:  20px;
+    font-weight: 900;
+}
+
+.buttons-holder{
+    width: 100%;
+}
+
+.home_btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 15%;
+    padding: 13px;
+    border: 2px solid aliceblue;
+    border-radius: 25px;
+    cursor: pointer;
+    background: transparent;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 900;
+    transition: ease-in-out 0.2s;
+}
+
+.home_btn:hover {
+    background-color: aliceblue;
+    color: black;
+}
