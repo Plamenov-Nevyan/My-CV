@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:5000/admin'
+const baseUrl = 'https://nevyan-resume.herokuapp.com/admin'
 
 export const adminAuth = (data) => {
    return fetch(baseUrl + '/authorize', {

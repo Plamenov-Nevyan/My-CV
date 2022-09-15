@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:5000/email'
+const baseUrl = 'https://nevyan-resume.herokuapp.com/email'
 
 const endpoints = {
     'SEND' : '/send'

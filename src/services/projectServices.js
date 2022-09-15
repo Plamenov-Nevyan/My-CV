@@ -1,4 +1,4 @@
-const baseUrl = 'https://nevyan-resume.herokuapp.com'
+const baseUrl = 'https://nevyan-resume.herokuapp.com/projects'
 const pageLimit = 4
 const endpoints = {
     GET_PROJECTS : '/get',
