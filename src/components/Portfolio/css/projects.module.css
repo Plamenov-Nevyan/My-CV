@@ -1,0 +1,23 @@
+.projects-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sort-select {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid aliceblue;
+    margin-left: 5px;
+    font-size: 17px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.sort-select:hover {
+    background: aliceblue;
+    border: 0;
+    color: black;
+}

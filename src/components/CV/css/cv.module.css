@@ -1,8 +1,11 @@
 .wrapper{
-    background-color: rgb(253, 254, 255);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,31,1) 35%, rgba(0,212,255,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 .full {
     width: 50%;
@@ -31,4 +34,14 @@
 }
 .h2 {
     background-color: rgb(4, 96, 150);
+}
+
+.ex-link {
+    text-decoration: none;
+    color: black;
+}
+
+.ex-link:hover {
+    text-decoration: underline;
+    color: brown;
 }

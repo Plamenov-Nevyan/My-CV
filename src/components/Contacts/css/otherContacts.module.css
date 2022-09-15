@@ -10,3 +10,13 @@
     list-style-type: none;
     text-align: justify;
 }
+
+.ex-link {
+    text-decoration: none;
+    color: black;
+}
+
+.ex-link:hover {
+    text-decoration: underline;
+    color: brown;
+}

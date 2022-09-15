@@ -19,6 +19,8 @@
     margin-left: -260px;
     border-radius:7px;
     -webkit-border-radius:7px;
+    -webkit-box-shadow: 9px -6px 26px 4px rgba(132,132,132,0.61); 
+    box-shadow: 9px -6px 26px 4px rgba(132,132,132,0.61);
     -moz-border-radius:7px;
  }
  #contact-form input,   

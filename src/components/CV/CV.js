@@ -1,5 +1,6 @@
 import styles from "./css/cv.module.css"
 import profilePic from "./images/profile-pic.jpg"
+import pdf from "./sv-scr.pdf"
 
 export const CV = () => {
   return (
@@ -46,8 +47,9 @@ export const CV = () => {
         <div className={styles.Hobbies}>
           <h2>Relevant Links</h2>
           <ul>
-            <li><a href="https://github.com/Plamenov-Nevyan"><i class="fa-brands fa-github"></i> Github</a></li>
-            <li>Swimming</li>
+            <li><a className={styles['ex-link']} href="https://github.com/Plamenov-Nevyan" target="_blank"><i class="fa-brands fa-github"></i> Github</a></li>
+            <li><a className={styles['ex-link']} href="https://www.linkedin.com/in/nevyan-plamenov-885371250/" target="_blank"><i class="fa-brands fa-linkedin-in"></i> Linkedin</a></li>
+            <li><a className={styles['ex-link']} href={pdf}><i class="fa-solid fa-file-pdf" target="_blank"></i> View/Download as PDF</a></li>
           </ul>
         </div>
       </div>
@@ -88,18 +90,6 @@ export const CV = () => {
                 <li>Participated in "Work and Travel". Rehoboth Beach, USA, 2016</li>
             </ul>
         </div>
-        {/* <div className={styles.project}>
-          <ul>
-            <li>
-              <h2>Project1</h2>
-              <p>This project is based on html &amp; used React</p>
-            </li>
-            <li>
-              <h2>Project2</h2>
-              <p>This project is based on html &amp; used React</p>
-            </li>
-          </ul>
-        </div> */}
       </div>
     </div>
     </div>
