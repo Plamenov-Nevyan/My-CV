@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:5000/projects'
+const baseUrl = 'https://combative-moth-lab-coat.cyclic.app'
 const pageLimit = 4
 const endpoints = {
     GET_PROJECTS : '/get',
