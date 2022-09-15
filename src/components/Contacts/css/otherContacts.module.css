@@ -5,6 +5,7 @@
     text-align: center;
     margin-top: 32px;
     transition: ease-in-out 0.3s;
+    position: relative;
 }
 
 .others-wrapper:hover {
