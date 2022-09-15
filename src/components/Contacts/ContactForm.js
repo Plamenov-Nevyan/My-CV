@@ -37,7 +37,8 @@ export const ContactForm = () => {
      }
     )}
     sendEmailToBackend(inputValues)
-    .then((resp) => {
+    .then((emailResult) => {
+      if(emailResult.message !== 'Success'){throw `${emailResult.message}`}
       setInputValues(oldValues => {return {
         name : '',
         email : '',

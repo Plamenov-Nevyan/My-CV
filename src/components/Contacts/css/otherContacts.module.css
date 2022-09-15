@@ -1,9 +1,22 @@
 .others-wrapper {
     width: 35%;
-    background-color: aqua;
+    background : transparent;
     border-radius: 30px;
     text-align: center;
     margin-top: 32px;
+    transition: ease-in-out 0.3s;
+}
+
+.others-wrapper:hover {
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    -webkit-box-shadow: 10px 39px 40px 4px rgba(0,0,0,0.46);
+-moz-box-shadow: 10px 39px 40px 4px rgba(0,0,0,0.46);
+box-shadow: 10px 39px 40px 4px rgba(0,0,0,0.46)
+}
+
+.others-wrapper:hover .ex-link {
+    color: aliceblue;
 }
 
 .other-contacts-list{

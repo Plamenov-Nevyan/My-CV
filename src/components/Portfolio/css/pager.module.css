@@ -2,9 +2,15 @@
     text-align: center;
 }
 
-.page_text_indicator {
+.page_text_indicator  {
     font-size: 25px;
     color: gold;
+    background: black;
+    width: 15%;
+    margin: 7px auto;
+    border-radius: 11px;
+    background: transparent;
+    border: 2px solid;
 }
 
 .page_btn {
@@ -18,17 +24,23 @@
     font-size: 20px;
     cursor: pointer;
     transition: ease-in-out 0.2s;
+    -webkit-box-shadow: 10px 39px 40px 4px rgba(0,0,0,0.46);
+    -moz-box-shadow: 10px 39px 40px 4px rgba(0,0,0,0.46);
+    box-shadow: 10px 39px 40px 4px rgba(0,0,0,0.46)
 }
 
 .page_btn_selected {
     background: aliceblue;
-    border: 2px solid black;
+    border: 0;
     color: black;
     padding: 14px;
     width: 50px;
     margin-left: 5px;
     font-size: 23px;
     border-radius: 20px;
+    -webkit-box-shadow: 10px 39px 40px 4px rgba(0,0,0,0.46);
+    -moz-box-shadow: 10px 39px 40px 4px rgba(0,0,0,0.46);
+    box-shadow: 10px 39px 40px 4px rgba(0,0,0,0.46)
 }
 
 .page_btn:hover {

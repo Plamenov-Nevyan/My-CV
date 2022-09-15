@@ -21,6 +21,9 @@
     background-image: url("../../../../public/images/profile-pic.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    -webkit-box-shadow: 10px 39px 40px 4px rgba(0,0,0,0.46);
+    -moz-box-shadow: 10px 39px 40px 4px rgba(0,0,0,0.46);
+    box-shadow: 10px 39px 40px 4px rgba(0,0,0,0.46)
 }
 
 .info-paragraph{
