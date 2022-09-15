@@ -1,4 +1,4 @@
-const baseUrl = 'https://combative-moth-lab-coat.cyclic.app'
+const baseUrl = ' https://nevyan-resume.herokuapp.com/'
 const pageLimit = 4
 const endpoints = {
     GET_PROJECTS : '/get',
