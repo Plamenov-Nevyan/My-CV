@@ -1,7 +1,7 @@
 import styles from "./css/projectBox.module.css"
 import { convertDigitToWord } from "../../utils/convertMonthDigitToWord"
 
-export const ProjectBox = ({link, previewImg, projectName, description, tags, createdAt}) => {
+export const ProjectBox = ({link, previewImg, projectName, description, tags, createdAt, deployment}) => {
     const bgImage = `--bg-img: url(${previewImg})`
     let date = createdAt.split('T')[0].split('-')
     let month = date[1]
@@ -13,9 +13,10 @@ export const ProjectBox = ({link, previewImg, projectName, description, tags, cr
 <div className={styles['card-grid-space']}>
     <div className={styles.num}></div>
     <a className={styles.card} href={link} style= {{backgroundImage: "url(" + previewImg + ")"}} target="_blank">
-      <div>
+      <div className={styles['project-info-holder']}>
         <h1>{projectName}</h1>
-        <p>{description}</p>
+        <p className={styles['descr-paragraph']}>{description}</p>
+    {deployment && <p className={styles['depl-p']}>Deployed <a href={deployment} className={styles['ex-link']}>here.</a></p>}
         <div className={styles.date}>Added on {betterDate}</div>
         <div className={styles.tags}>
           {tags.map(tag => <div className={styles.tag}>{tag}</div>)}

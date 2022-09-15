@@ -7,6 +7,7 @@ export const AddProjectForm = ({admSession}) => {
         link : '',
         previewImg : '',
         description : '',
+        deployment : '',
         tags : ''
     })
 
@@ -30,6 +31,8 @@ export const AddProjectForm = ({admSession}) => {
         <input type="text" name="projectName" onChange={(e) => onChangeHandler(e)} value={data.projectName}/>
         <label htmlFor="link">Link to the source code</label>
         <input type="text" name="link" onChange={(e) => onChangeHandler(e)} value={data.link}/>
+        <label htmlFor="deployed">Link to deployment</label>
+        <input type="text" name="deployed" onChange={(e) => onChangeHandler(e)} value={data.deployment}/>
         <label htmlFor="previewImg">Preview Image</label>
         <input type="text" name="previewImg" onChange={(e) => onChangeHandler(e)} value={data.previewImg}/>
         <label htmlFor="description">Short description</label>

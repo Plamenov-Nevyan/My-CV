@@ -37,13 +37,23 @@
   }
   
   .card p {
+    word-wrap: break-word;
     font-size: 0.75em;
     font-family: 'Open Sans';
     margin-top: 0.5em;
     line-height: 2em;
     visibility: hidden;
   }
-  
+
+  .ex-link {
+    font-size: 14px;
+  }
+
+
+  .depl-p{
+    font-size: 14px;
+    color: deeppink;
+  }
   .card .tags {
     display: flex;
     visibility: hidden;
