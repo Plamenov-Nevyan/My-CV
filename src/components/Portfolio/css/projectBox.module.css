@@ -43,12 +43,17 @@
     margin-top: 0.5em;
     line-height: 2em;
     visibility: hidden;
+    width: 75%;
   }
 
   .ex-link {
     font-size: 14px;
   }
 
+  .break {
+    flex-basis: 100%;
+    height: 0;
+  }
 
   .depl-p{
     font-size: 14px;
@@ -57,7 +62,9 @@
   .card .tags {
     display: flex;
     visibility: hidden;
-  }
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    }
   .card .date {
     visibility: hidden;
   }
@@ -82,6 +89,7 @@
     padding: 0 0.5em;
     margin-right: 0.5em;
     line-height: 1.5em;
+    margin: 1px 1px;
     transition: all, var(--transition-time);
   }
   

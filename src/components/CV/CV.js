@@ -20,20 +20,33 @@ export const CV = () => {
             <b>Email:</b>plamenovnevyan@gmail.com
           </p>
           <p>
-            <b>Mobile &#8470; : </b>0892961696
+            <b>Mobile &#8470; :</b>089 296 1696
           </p>
         </div>
         <div className={styles.Skills}>
           <h2>Skills</h2>
           <ul>
             <li>
-              <b>Programming Languages : Javascript</b>
+              <b>Programming Languages :</b>
+               <ul>
+                 <li>Javascript</li>
+               </ul>
             </li>
             <li>
-              <b>Frontend : HTML5, CSS3, JavaScript, React</b>
+              <b>Frontend :</b>
+              <ul>
+                 <li>HTML5</li>
+                 <li>CSS3</li>
+                 <li>React</li>
+               </ul>
             </li>
             <li>
-              <b>Backend : Node.js, Express, MongoDB</b>
+              <b>Backend :</b>
+              <ul>
+                 <li>NodeJs</li>
+                 <li>Express</li>
+                 <li>MongoDB</li>
+               </ul>
             </li>
           </ul>
         </div>
@@ -69,7 +82,12 @@ export const CV = () => {
         </div>
         <div className={styles.Experience}>
           <h2>Employment History</h2>
-           <p>Student at Softuni EOOD,  May 2021 - Current</p>
+          <p>Machine-Operator, Apr 2019 to Jan 2020</p>
+          <p>Vendor-Consultant, Oct 2017 to Jan 2018</p>
+        </div>
+        <div className={styles.Education}>
+          <h2>Education</h2>
+          <p>Softuni EOOD, Apr 2021 - Current</p>
             <ul>
                 <li>Completed Programming Basics : grade 6.00</li>
                 <li>Completed Programming Fundamentals with JS : grade 5.89</li>
@@ -77,12 +95,6 @@ export const CV = () => {
                 <li>Completed JS Applications : grade 5.34</li>
                 <li>Completed JS React: grade 6.00</li>
             </ul>
-          <p>Machine-Operator, Apr 2019 to Jan 2020</p>
-          <p>Vendor-Consultant, Oct 2017 to Jan 2018</p>
-        </div>
-        <div className={styles.Education}>
-          <h2>Education</h2>
-          <p>Softuni EOOD, Apr 2021 - Current</p>
           <p>University of Ruse - "Angel Kanchev", Sep 2015 - May 2018</p>
             <ul>
                 <li>Bachelor Degree</li>

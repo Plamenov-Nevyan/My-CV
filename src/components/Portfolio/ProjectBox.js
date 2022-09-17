@@ -19,7 +19,15 @@ export const ProjectBox = ({link, previewImg, projectName, description, tags, cr
     {deployment && <p className={styles['depl-p']}>Deployed <a href={deployment} className={styles['ex-link']}>here.</a></p>}
         <div className={styles.date}>Added on {betterDate}</div>
         <div className={styles.tags}>
-          {tags.map(tag => <div className={styles.tag}>{tag}</div>)}
+          {tags.map((tag, index) => {
+            if(index % 3 === 0 && index !== 0){
+              return <>
+              <div className={styles.break}></div> 
+              <div className={styles.tag}>{tag}</div>
+              </>
+            }  
+            else {return <div className={styles.tag}>{tag}</div>}
+          })}
         </div>
       </div>
     </a>
