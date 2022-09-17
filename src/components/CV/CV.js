@@ -82,7 +82,7 @@ export const CV = () => {
         </div>
         <div className={styles.Experience}>
           <h2>Employment History</h2>
-          <p>Machine-Operator, Apr 2019 to Jan 2020</p>
+          <p>Machine-Operator, Nov 2019 to Nov 2020</p>
           <p>Vendor-Consultant, Oct 2017 to Jan 2018</p>
         </div>
         <div className={styles.Education}>
@@ -95,7 +95,7 @@ export const CV = () => {
                 <li>Completed JS Applications : grade 5.34</li>
                 <li>Completed JS React: grade 6.00</li>
             </ul>
-          <p>University of Ruse - "Angel Kanchev", Sep 2015 - May 2018</p>
+          <p>University of Ruse - "Angel Kanchev", Sep 2015 - May 2019</p>
             <ul>
                 <li>Bachelor Degree</li>
                 <li>Specialization in Agricultural Engineering</li>
